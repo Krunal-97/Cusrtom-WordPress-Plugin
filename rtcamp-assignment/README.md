@@ -16,18 +16,18 @@
  You need to install this plugin for displaying Recent Posts Widget from specific Category.
 ## List of my Important Custom Files:
 >1. 'custom.css' - Path : lib/css/custom.css
-   **This file contains my custom styling and responsive layout code.I used CSS Grid for creating this Theme Layout.**
->2. custom.js - Path : lib/js/custom.js - For Child Pages container
-3. custom-slider-post-type.php - Path : lib/custom-slider-post-type.php - For Custom Post Based Slider Option 
-4. header.php - For the Header
-5. page.php - For the Front Page
-6. footer.php - For the Footer
-7. function.php -  For the Theme Options
+   ###This file contains my custom styling and responsive layout code.I used CSS Grid for creating this Theme Layout.
+>2. 'custom.js' - Path : lib/js/custom.js - For Child Pages container
+>3. 'custom-slider-post-type.php' - Path : lib/custom-slider-post-type.php - For Custom Post Based Slider Option 
+>4. 'header.php' - For the Header
+>5. 'page.php' - For the Front Page
+>6. 'footer.php' - For the Footer
+>7. 'function.php' -  For the Theme Options
 ### List of Important 3rd party Files:
-1. jquery.js - Path : lib/js/jquey.js
-2. font-awesome.css to add Font Awesome Icons. - Path: lib/css/font-awesome.css
-3. slippry.min.js for Custom Post Slider. - Path : lib/js/slippry.min.js
-4. slippryy.css for Custom Post Slider - Path : lib/css/slippryy.css
+>1. 'jquery.js' - Path : lib/js/jquey.js
+>2. 'font-awesome.css' to add Font Awesome Icons. - Path: lib/css/font-awesome.css
+>3. 'slippry.min.js' for Custom Post Slider. - Path : lib/js/slippry.min.js
+>4. 'slippryy.css' for Custom Post Slider - Path : lib/css/slippryy.css
 ###  The Demo Link of my WordPress Theme Challenge Assignment.
 
 ##  http://rtcamp-assignment-kp.epizy.com/kp/
