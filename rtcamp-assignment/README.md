@@ -43,14 +43,11 @@ This repo contains Challenge-1: WordPress Theme Challenge.
 3. slippry.min.js for Custom Post Slider. - Path : lib/js/slippry.min.js
 4. slippryy.css for Custom Post Slider - Path : lib/css/slippryy.css
 
-##  The Demo Link of my WordPress Theme Challenge Assignment.
+###  The Demo Link of my WordPress Theme Challenge Assignment.
 
 http://rtcamp-assignment-kp.epizy.com/kp/
-![capture2](https://user-images.githubusercontent.com/42610373/44520343-3ca97a80-a6ed-11e8-86bb-0c5afca10e82.JPG)
+![capture1](https://user-images.githubusercontent.com/42610373/44520754-79c23c80-a6ee-11e8-87be-b3da9504225b.JPG)
 ![capture4](https://user-images.githubusercontent.com/42610373/44520128-ac6b3580-a6ec-11e8-8ad0-289833435814.JPG)
 ![capture6](https://user-images.githubusercontent.com/42610373/44520430-682c6500-a6ed-11e8-95fa-c3eb0f96a6a7.JPG)
 ![capture7](https://user-images.githubusercontent.com/42610373/44520477-91e58c00-a6ed-11e8-926d-d4b71e285a7f.JPG)
 ![capture5](https://user-images.githubusercontent.com/42610373/44520600-edb01500-a6ed-11e8-98c2-1de7d070bd50.JPG)
-
-
-
