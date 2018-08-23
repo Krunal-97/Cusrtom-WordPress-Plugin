@@ -19,7 +19,6 @@ This repo contains Challenge-1: WordPress Theme Challenge.
 ### List of Plugins which are used in this challenge:
 
  Recent Posts Widget Extended : https://wordpress.org/plugins/recent-posts-widget-extended/
- 
  You need to install this plugin for displaying Recent Posts Widget from specific Category.
 
 ### List of my Important Custom Files:
