@@ -1,14 +1,14 @@
 # rtCamp WordPress Engineer Assignment
   This repo contains Challenge-1: WordPress Theme Challenge.
 * Simple PSD to WordPress Theme Assignment
-## List of some features provided by this theme :
+## List of some Features provided by this Theme :
 * Responsive Layout Design
 * Custom Header Options
 * Custom Post Type Based Slider Options
 * Child Pages and Sub Pages of Child Pages Box 
 * Custom Footer Widget Areas Options
 * Custom Footer Options
-## The theme I used for this challenge is :
+## The Theme I used for this Challenge is :
  [Underscores starter theme](https://underscores.me/)
 ## The Plugin which was used in this challenge :
  [Recent Posts Widget Extended](https://wordpress.org/plugins/recent-posts-widget-extended/)
