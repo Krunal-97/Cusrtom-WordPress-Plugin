@@ -15,10 +15,7 @@ This repo contains Challenge-1: WordPress Theme Challenge.
  You need to install this plugin for displaying Recent Posts Widget from specific Category.
 ### List of my Important Custom Files:
 1. custom.css - Path : lib/css/custom.css
-
- **This file contains my custom styling and responsive layout code.
- I used CSS Grid for creating Theme Layout.**
-
+   **This file contains my custom styling and responsive layout code.I used CSS Grid for creating this Theme Layout.**
 2. custom.js - Path : lib/js/custom.js - For Child Pages container
 3. custom-slider-post-type.php - Path : lib/custom-slider-post-type.php - For Custom Post Based Slider Option 
 4. header.php - For the Header
@@ -32,7 +29,7 @@ This repo contains Challenge-1: WordPress Theme Challenge.
 4. slippryy.css for Custom Post Slider - Path : lib/css/slippryy.css
 ###  The Demo Link of my WordPress Theme Challenge Assignment.
 
-  http://rtcamp-assignment-kp.epizy.com/kp/
+##  http://rtcamp-assignment-kp.epizy.com/kp/
   
 ### Screenshots of Theme Custom Options
 ![capture1](https://user-images.githubusercontent.com/42610373/44520754-79c23c80-a6ee-11e8-87be-b3da9504225b.JPG)
