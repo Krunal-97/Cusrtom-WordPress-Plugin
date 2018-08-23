@@ -32,7 +32,7 @@
 
 ###  **http://rtcamp-assignment-kp.epizy.com/kp/**
   
-## Screenshots of Custom Theme Options
+## Screenshots of Custom Theme and Theme Options
 #### Screenshot of my Created Theme
 ![capture](https://user-images.githubusercontent.com/42610373/44527545-c87ad100-a704-11e8-8ead-53cb488a1421.JPG)
 #### Custom Theme Options
