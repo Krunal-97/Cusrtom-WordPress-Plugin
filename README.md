@@ -33,6 +33,7 @@
 ###  **http://rtcamp-assignment-kp.epizy.com/kp/**
   
 ## Screenshots of Custom Theme Options
+![capture](https://user-images.githubusercontent.com/42610373/44527545-c87ad100-a704-11e8-8ead-53cb488a1421.JPG)
 #### Custom Theme Options
 ![capture1](https://user-images.githubusercontent.com/42610373/44520754-79c23c80-a6ee-11e8-87be-b3da9504225b.JPG)
 #### Custom Menu Options
