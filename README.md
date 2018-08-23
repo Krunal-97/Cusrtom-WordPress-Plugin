@@ -10,7 +10,7 @@
 * Custom Footer Options
 ## The theme I used for this challenge is:
  [Underscores starter theme](https://underscores.me/)
-## List of Plugins which are used in this challenge:
+## The Plugin which was used in this challenge:
  [Recent Posts Widget Extended](https://wordpress.org/plugins/recent-posts-widget-extended/)
  
  You need to install this plugin for displaying Recent Posts Widget from specific Category.
