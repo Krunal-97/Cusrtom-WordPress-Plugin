@@ -30,7 +30,7 @@
 >4. 'slippryy.css' - Path : lib/css/slippryy.css - For Custom Post Slider 
 ##  The Demo Link of my WordPress Theme Challenge Assignment.
 
-##  http://rtcamp-assignment-kp.epizy.com/kp/
+###  **http://rtcamp-assignment-kp.epizy.com/kp/**
   
 ## Screenshots of Theme Custom Options
 #### Custom Theme Options
