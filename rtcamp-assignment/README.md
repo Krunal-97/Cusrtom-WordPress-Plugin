@@ -48,4 +48,5 @@ This repo contains Challenge-1: WordPress Theme Challenge.
 http://rtcamp-assignment-kp.epizy.com/kp/
 ![capture2](https://user-images.githubusercontent.com/42610373/44520343-3ca97a80-a6ed-11e8-86bb-0c5afca10e82.JPG)
 ![capture4](https://user-images.githubusercontent.com/42610373/44520128-ac6b3580-a6ec-11e8-8ad0-289833435814.JPG)
+![capture6](https://user-images.githubusercontent.com/42610373/44520430-682c6500-a6ed-11e8-95fa-c3eb0f96a6a7.JPG)
 
