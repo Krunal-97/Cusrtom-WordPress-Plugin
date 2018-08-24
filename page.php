@@ -16,6 +16,7 @@ get_header();
 ?>
 	<div id="primary" class="content-area">
 		<main id="main" class="site-main">
+			
 <!-- Starting point of Custom Post Based Slider -->
 
 			<div class="slider-bg">
