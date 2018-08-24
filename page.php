@@ -14,9 +14,10 @@
 
 get_header();
 ?>
-<!-- Starting point of Custom Post Based Slider -->
 	<div id="primary" class="content-area">
 		<main id="main" class="site-main">
+<!-- Starting point of Custom Post Based Slider -->
+
 			<div class="slider-bg">
 				<div class="container">
 					<div class="slider-inner">
@@ -52,9 +53,11 @@ get_header();
 					</div><!--.slider-innerr -->
 				</div><!--.container-->
 			</div><!--.slider-bg -->
+
 <!-- Ending point of Custom Post Based Slider -->	
 
 <!-- Starting point of Child Pages of Home Page -->	
+
 			<div class="container child-pages-container">
 				<div class="row">
 					<div class="col-3">
@@ -92,7 +95,7 @@ get_header();
 	                   			</div>
 								
 						<?php } ?>
-					</div>
+					</div><!-- #child-page-1 -->
 
 					<div id="child-page-2" class="col-9 tabcontent">
 					 	<?php
@@ -121,7 +124,7 @@ get_header();
 	                   			</div>
 								
 						<?php } ?>
-				    </div>
+				    </div><!-- #child-page-2 -->
 
 					<div id="child-page-3" class="col-9 tabcontent">
 						<?php
@@ -150,9 +153,11 @@ get_header();
 	                   			</div>
 								
 						<?php } ?>
-					</div>
+					</div><!-- #child-page-3 -->
+
 				</div><!--.row-->
 			</div><!--.child pages box-->
+
 <!-- Ending point of Child Pages of Home Page -->
 
 </main><!--.site-main-->
