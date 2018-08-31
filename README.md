@@ -34,7 +34,7 @@
   
 ## Screenshots of my custom theme and theme options :
 #### Screenshot of my created theme :
-![capture](https://user-images.githubusercontent.com/42610373/44527545-c87ad100-a704-11e8-8ead-53cb488a1421.JPG)
+![ss-1](https://user-images.githubusercontent.com/42610373/44923925-51c67f00-ad67-11e8-9649-81b0b1199c34.JPG)
 #### Custom theme options :
 ![capture1](https://user-images.githubusercontent.com/42610373/44520754-79c23c80-a6ee-11e8-87be-b3da9504225b.JPG)
 #### Custom menu options :
