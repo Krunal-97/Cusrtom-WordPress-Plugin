@@ -506,8 +506,9 @@ ul.rpwe-ul {
     	font-size: 11px;
     }
     .site-header {
+    	background-image: none;
     	margin: 0;
-    	padding-top: 0px;
+    	padding-top: 20px;
     }
     .menu-toggle {
     	margin: 0px;
@@ -627,7 +628,11 @@ ul.rpwe-ul {
 	.bottom-text{
 		width: 100%;
 		padding-bottom: 0px;
+		padding-top: 20px;
 		
+	}
+	.footer-area {
+		background-image: none;
 	}
 	.footer-logo {
 		display: block;
