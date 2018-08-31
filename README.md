@@ -36,7 +36,7 @@
 #### Screenshot of my created theme :
 ![ss-1](https://user-images.githubusercontent.com/42610373/44923925-51c67f00-ad67-11e8-9649-81b0b1199c34.JPG)
 #### Custom theme options :
-![capture1](https://user-images.githubusercontent.com/42610373/44520754-79c23c80-a6ee-11e8-87be-b3da9504225b.JPG)
+![ss-2](https://user-images.githubusercontent.com/42610373/44924012-9e11bf00-ad67-11e8-8720-a4e207d549ef.JPG)
 #### Custom menu options :
 ![capture6](https://user-images.githubusercontent.com/42610373/44520430-682c6500-a6ed-11e8-95fa-c3eb0f96a6a7.JPG)
 #### Custom footer widgets area options :
