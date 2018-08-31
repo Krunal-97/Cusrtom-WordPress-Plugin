@@ -61,7 +61,7 @@ get_header();
 
 			<div class="container child-pages-container">
 				<div class="row">
-					<div class="col-3">
+					<div class="col-child-name">
 						<div class="child-pages">
 						  <button class="tablinks" onmouseover="openChildPage(event, 'child-page-1')" onClick="openChildPage(event, 'child-page-1')" id="defaultOpen">FINDING</button>
 						  <button class="tablinks" onmouseover="openChildPage(event, 'child-page-2')">PROMOTIONAL ACTIVITIES</button>	
@@ -69,7 +69,7 @@ get_header();
 						</div><!--.tab-->
 					</div><!--.col-3-->
 
-					<div id="child-page-1" class="col-9 tabcontent">
+					<div id="child-page-1" class="col-child-content tabcontent">
 						<?php
 							$my_wp_query = new WP_Query();
 							$all_wp_pages = $my_wp_query->query(array(
@@ -98,7 +98,7 @@ get_header();
 						<?php } ?>
 					</div><!-- #child-page-1 -->
 
-					<div id="child-page-2" class="col-9 tabcontent">
+					<div id="child-page-2" class="col-child-content tabcontent">
 					 	<?php
 							$my_wp_query = new WP_Query();
 							$all_wp_pages = $my_wp_query->query(array(
@@ -127,7 +127,7 @@ get_header();
 						<?php } ?>
 				    </div><!-- #child-page-2 -->
 
-					<div id="child-page-3" class="col-9 tabcontent">
+					<div id="child-page-3" class="col-child-content tabcontent">
 						<?php
 							$my_wp_query = new WP_Query();
 							$all_wp_pages = $my_wp_query->query(array(

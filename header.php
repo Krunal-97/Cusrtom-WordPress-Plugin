@@ -35,14 +35,14 @@
 			<div class="container">
 				<header id="masthead" class="site-header">
 					<div class="row">
-						<div class="col-6">
+						<div class="col-5">
 							<div class="site-branding">
 								<?php	
 									the_custom_logo();
 								?>
 							</div><!-- .site-branding -->
-						</div><!-- .col-6 -->
-						<div class="col-6">
+						</div><!-- .col-5 -->
+						<div class="col-7">
 							<nav id="site-navigation" class="main-navigation">
 								<button class="menu-toggle" aria-controls="primary-menu" aria-expanded="false"><?php esc_html_e( 'Menu', 'rtcamp-assignment' ); ?></button>
 								<?php	
@@ -52,7 +52,7 @@
 									) );
 								?>
 							</nav><!-- #site-navigation -->
-						</div><!-- .col-6 -->
+						</div><!-- .col-7 -->
 					</div><!-- .row -->
 				</header><!-- #masthead -->
 			</div><!-- .container -->

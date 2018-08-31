@@ -26,7 +26,7 @@ a {
 	text-decoration:none;
 }
 p,
-h3 {
+h3{
 	padding: 0;
 	margin: 0;
 }
@@ -34,8 +34,8 @@ h3 {
 # Header
 --------------------------------------------------------------*/
 .site-header {
-	padding-top: 20px;
-	background-image: url(../images/header-bg.jpg) ;
+	background-image: url(../images/header-bg.jpg);
+	padding-top: 22px;
 	background-repeat: no-repeat;
 	background-position: center;
 }
@@ -45,14 +45,14 @@ h3 {
 }
 .main-navigation {
 	padding-top: 22px;
-	
+	padding-left: 28px;
 }
 .main-navigation a {
 	font-family: Tahoma;
 	font-size:15px;
 	color:#333;
 	text-decoration:none;
-	padding-right:18px;
+	padding-left: 23px;
 }
 .main-navigation a:hover {
 	color: #993408;
@@ -73,31 +73,31 @@ h3 {
 	width: 100%;
 }
 .slider-inner {
-	padding: 30px;
+	padding: 21px 0;
 }
-.border
- {
-	border: 10px solid white;
+.slider-inner a img{
+	height: 282px;
+}
+.border {
+	border: 9px solid white;
 }
 .slider-caption {
 	position: absolute;
   	color: #fff;
 	background: #000;
-	height: 322px;
-	left: 65%;
-	top: 10px;
+	height: 282px;
+	width: 340px;
+	float: left;
 	right: 10px;
 	bottom: 10px;
-	padding: 0;
-	margin: 0;
 	padding-bottom: 20px;
 	opacity: 0.7;
 }
 .cover {
-	padding: 25px;
-	height: 329px;
+	padding: 30px;
+	height: 282px;
 	text-align: left;
-	margin-right: 50px;
+	margin-right: 40px;
 	border-right: 1px solid #fff;
 }
 .post-title {
@@ -123,35 +123,35 @@ h3 {
 	margin: 0; 
 }
 .sy-controls li {
-   position: absolute;
-   width: 10%;
-   min-width: 4.2em;
-   height: 100%;
-   z-index: 33;
+	position: absolute;
+	width: 10%;
+	min-width: 4.2em;
+	height: 100%;
+	z-index: 33;
 }
 .sy-controls li.sy-prev {
-  background-image:url(../images/slider-top-pagination-hov.png);
-  background-repeat:no-repeat;
-  left:95.8%;
-  top:10%;
-  width:15px;
-  height:15px;
+	background-image:url(../images/slider-top-pagination-hov.png);
+	background-repeat:no-repeat;
+	left:96%;
+	top:6%;
+	width:15px;
+	height:15px;
 }
 .sy-controls li.sy-next {
-  background-image:url(../images/slider-bottom-pagination-hov.png);
-  background-repeat:no-repeat;
-  left:95.8%;
-  width:15px;
-  height:15px;
-  top:85%;
-  height:16px;
+	background-image:url(../images/slider-bottom-pagination-hov.png);
+	background-repeat:no-repeat;
+	left:96%;
+	width:15px;
+	height:15px;
+	top:89%;
+	height:16px;
 }
 .sy-controls li a {
-  position: relative;
-  width: 0%;
-  height: 0%;
-  display: block;
-  text-indent: -9999px;
+	position: relative;
+	width: 0%;
+	height: 0%;
+	display: block;
+	text-indent: -9999px;
 }
 .sy-controls li a:after {
 	content: "";
@@ -169,15 +169,15 @@ h3 {
     padding: 0;
     margin: 0; 
   	transform: rotate(90deg);
-    margin-top: -175px;
-    margin-left: 973px;
+    margin-top: -150px;
+    margin-left: 890px;
     z-index: 5;
     display: flex;
 }
   .sy-pager li {
     position: relative;
-    width: .8em;
-    height: .8em;
+    width: .75em;
+    height: .75em;
     margin: 0 .5em 0 0;
     border-radius: 50%; 
   }
@@ -199,22 +199,23 @@ h3 {
 # Child Pages
 --------------------------------------------------------------*/
 .child-pages-container {
-	margin-top: 18px;
-	margin-bottom: 18px;
+	margin-top: 20px;
+	margin-bottom: 20px;
 }
 .child-pages {
     float: left;
     border: 1px solid #ccc;
     background-color: #E8E8E8;
-	width: 100%;
-    height: 280px;
+	width: 266px;
+    height: 247px;
 }
 .tabcontent {
     float: left;
     border: 1px solid #ccc;
     border-left: none;
-    height: 280px;
-	width: 100%;
+    height: 247px;
+	width: 696px;
+	padding-left: 20px;
 }
 .child-pages button  {
 	font-family: Georgia;
@@ -234,26 +235,26 @@ h3 {
 div.child-pages button:hover,div.child-pages button.active  {
     background-color: #993408;
 	color: #fff;
-	-webkit-clip-path: polygon(0% 0%, 95% 0%, 100% 50%, 95% 100%, 0% 100%);
-	-moz-clip-path: polygon(0% 0%, 95% 0%, 100% 50%, 95% 100%, 0% 100%);
 	clip-path: polygon(0% 0%, 95% 0%, 100% 50%, 95% 100%, 0% 100%);
 }
 .child-pages-content {
-	padding: 15px 15px 15px 0;
+	padding-top: 20px;
 	float: left;
+	width: 205px;
 }
-.child-pages-content:first-child {
-	padding-left: 15px;
+div.child-pages-content {
+	margin: 0;
 }
 .child-pages-content img {
-	width: 100%;
-	height: 120px;
+	max-width: 205px;
+	height: 101px;
 }
 .featured-post-title {
 	font-family: Georgia;
-	font-size: 15px;
+	font-size: 13px;
 	font-weight: bold;
 	color: #000;
+	width: 205px;
 	padding-bottom: 0;
 	margin-bottom: 0;
 	text-decoration: none;
@@ -264,52 +265,70 @@ div.child-pages button:hover,div.child-pages button.active  {
 	padding: 0 auto;
 	font-weight: normal;
 	font-size: 13px;
+	width: 205px;
 	color: #333;
 	text-decoration: none;
+}
+p.featured-post-title , .simple-link , p.post-excerpt {
+	margin: 0;
 }
 /*--------------------------------------------------------------
 # Footer
 --------------------------------------------------------------*/
-
+.footer-widget-area {
+	background-color: #fafafa;
+	height: 230px;
+	border-top: 1px solid lightgray;
+	border-bottom: 1px solid lightgray;
+	margin-bottom: 0;
+	padding-bottom: 0;
+}
+h2.widget-title {
+	padding: 0;
+	margin: 0;
+}
 .widget-title {
 	font-family: Tahoma;
 	font-size: 15px;
 	color: #888;
-	padding-bottom: 3px;
-}
-.footer-area {
-	padding: 0;
-	margin: 0;
-	background-image: url(../images/footer-bg.jpg);
-	background-repeat: no-repeat;
-	background-position: center;
-}
-.widget-title
- {
-	font-family: Tahoma;
-	font-size: 15px;
-	color: #888;
 	border-bottom: 1px dashed #888;
+}
+h2.widget-title {
+	padding-top: 13px;
+	padding-bottom: 2px;
+}
+ul.rpwe-ul {
+	margin: 0;
+}
+#rpwe_widget-2 {
+	margin: 0;
+}
+.widget , .rpwe_widget,
+.recent-posts-extended {
+	margin: 0;
 }
 .footer-area-1 , 
 .footer-area-2 , 
 .footer-area-3 , 
 .footer-area-4 {
 	margin: 0px auto;
-	padding: 10px;
+	padding-right: 20px;
 }
-.footer-area-1 ul
- {
-	margin-left: -35px;
+.footer-area-1 ul {
+	width: 212px;
 }
-.footer-area-1 li {
-	margin-bottom: 8px;
-}
-
 .footer-area-1 ul li, 
 .footer-area-3 ul li, 
 .footer-area-4 ul li {
 	list-style: none;
+}
+.footer-area-1 ul li:first-child, 
+.footer-area-3 ul li:first-child, 
+.footer-area-4 ul li:first-child {
+	padding-top: 10px;
+}
+.footer-area-2 img {
+	padding-top: 10px;
 }
 .footer-area-1 a, 
 .footer-area-3 a,
@@ -323,8 +342,11 @@ div.child-pages button:hover,div.child-pages button.active  {
 .footer-area-4 a:hover {
 	color: #993408;
 }
+.footer-area-1 ul li {
+	padding-bottom: 0px;
+}
 .footer-area-3 li {
-	margin-bottom: 5px;
+	padding-bottom: 10px;
 }
 .footer-area-3 i {
 	font-size: 24px;
@@ -341,29 +363,28 @@ div.child-pages button:hover,div.child-pages button.active  {
 .rss:hover {
 	color: #ee802f;
 }
+.footer-area {
+	padding-top: 3px;
+	margin: 0;
+	background-image: url(../images/footer-bg.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+}
 .menu {
-	margin: 0 auto;
+	margin: 0;
 	padding: 0;
 }
-.footer-widget-area {
-	background-color: #fafafa;
-	border-top: 1px solid lightgray;
-	border-bottom: 1px solid lightgray;
-	margin-bottom: 0;
-	padding-bottom: 0;
-}
 .footer-nav {
-	padding-top: 30px;
-	padding-bottom: 8px;
-    display: block;
     float: left;
     width: 100%; 
 }
 .footer-nav li {
 	list-style: none;
 	float: left;
-	padding-right: 10px;
 	font-size: 13px;
+	padding-top: 22px;
+	padding-bottom: 6px;
+	padding-right: 18px;
 }
 .footer-nav li a {
 	color: #666;
@@ -371,15 +392,17 @@ div.child-pages button:hover,div.child-pages button.active  {
 .footer-nav li a:hover {
 	color: #993408;
 }
-.site-info {
-	font-size: 13px;
-	color: #999;
-	padding-top: 0px;
-	padding-bottom: 10px;
-}
 .footer-logo img {
 	float: right;
-	padding-top: 20px;
+}
+.bottom-text {
+	font-family: Tahoma;
+	font-size: 13px;
+	padding-bottom: 26px;
+	color: #999;
+}
+.footer-logo {
+	padding-top: 15px;
 }
 /*--------------------------------------------------------------
 # Responsive 
@@ -392,7 +415,9 @@ div.child-pages button:hover,div.child-pages button.active  {
     clear: both;
     display: block;
 }
-[class*="col-"] {
+[class*="col-"] ,
+.col-child-content ,
+.col-child-name {
     float: left;
 }
 .col-1 {
@@ -431,10 +456,14 @@ div.child-pages button:hover,div.child-pages button.active  {
 .col-12 {
 	width: 100%;
 }
+.col-child-content {
+	width: 72.5%;
+}
+.col-child-name {
+	width: 27.5%;
+}
 .container {
- 	width: 1140px;
-  	padding-right: 15px;
-  	padding-left: 15px;
+ 	width: 960px;
   	margin-right: auto;
   	margin-left: auto;
 }
@@ -448,12 +477,15 @@ div.child-pages button:hover,div.child-pages button.active  {
     		padding: 0;
     		margin: 0;
     }
-    [class*="col-"]  {
+    [class*="col-"] ,
+    .col-child-content , 
+    .col-child-name {
         width: 100%;
         text-align: center;
     }
     .container {
     	width: 100%;
+    	padding: 0px;
     }
 /*----- Header -----*/
 	.main-navigation {
@@ -474,9 +506,8 @@ div.child-pages button:hover,div.child-pages button.active  {
     	font-size: 11px;
     }
     .site-header {
-    	background-image: none;
     	margin: 0;
-    	padding-top: 30px;
+    	padding-top: 0px;
     }
     .menu-toggle {
     	margin: 0px;
@@ -486,72 +517,73 @@ div.child-pages button:hover,div.child-pages button.active  {
     	float: right;
     }
 /*----- Post Slider -----*/
-	.slider-bg {
-		margin-top: 20px;
+	.slider-inner {
+		padding-left: 20px;
+		padding-right: 20px;
+	}
+	.slider-inner a img {
+		height: 170px;
 	}
 	.border {
 		border: 5px solid white;
 		border-bottom: none;
 	}
-	.sy-pager {
-		position: static;
-		transform: rotate(360deg);
-	 	clear: both;
-	  	display: block;
-	  	width: 100%;
-	  	margin: 1em 0 0;
-	  	padding: 0;
-	  	text-align: center;
-	   	margin-top: 0;
-	    margin-left: 0; 
-	}
-  	.sy-pager li {
-	    display: inline-block;
-	    width: .6em;
-	    height: .6em;
-	    margin: 0 1em 0 0;
-	    border-radius: 50%;
-	}
 	.slider-caption {
-		position: static; 
-		height: 100%;
+		transform: rotate(360deg);
+		position: static;
+		height: 200px;
 		width: 100%;
-		padding: 0;
-		margin: 0;
+		float: left;
 		border: 5px solid white;
 		border-top: none;
 	}
 	.cover {
-		padding:10px;
-		height:100%;
-		border: none;
-		margin-right: 0;
+		padding: 10px;
+		height: 165px;
+		text-align: left;
+		margin-right: 0px;
+		border-right: none;
+		margin-bottom: 40px;
+		border-bottom: 1px solid #fff;
 	}
+	.post-title {
+		font-size: 18px;
+	}
+	.cover p {
+		font-size: 12px;
+		color: #ccc;
+	}
+	/*----- Top-Down Pagination -----*/
 	.sy-controls li.sy-prev {
 	    transform: rotate(270deg);
-	    left: -8%;
+	    left: 0%;
 	    right: 0;
-	    top: 85%;
+	    top: 86%;
 	}
 	.sy-controls li.sy-next {
 	    transform: rotate(270deg);
-	    left: 85%;
-	    right: 0; 
+	    left: 80%;
+	    right: 2%;
+	    top: 86%; 
 	}
 	.sy-controls li a {
 		display: none;
 	}
-	.post-title {
-		font-size:12px;
-		text-align: center;
+	/*----- List Bullets ----- */
+	.sy-pager {
+	  	transform: rotate(0deg);
+	    margin-top: -25px;
+	    margin-left: 110px;
 	}
-	.cover p {
-		display: none;
-		font-size:7px;
-	}
+	  
 /*----- Child Pages -----*/
+	.child-pages-container {
+		padding-left: 20px;
+		padding-right: 20px;
+	}
     .child-pages {
-    	height: 180px;
+    	height: 150px;
+    	width: 100%;
     }
     .child-pages button {
     	text-align: center;
@@ -561,40 +593,47 @@ div.child-pages button:hover,div.child-pages button.active  {
     div.child-pages button:hover,div.child-pages button.active  {
 	    background-color: #993408;
 		color:#fff;
-		-webkit-clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 100% 100%, 0% 100%);
-		-moz-clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 100% 100%, 0% 100%);
 		clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 100% 100%, 0% 100%);
+	}
+	.featured-post-title , .post-excerpt{
+		text-align: center;
+		width: 100%;
 	}
 	.tabcontent {
    		border: none;
-   		margin-bottom: 375px;
+   		padding: 0;
+   		margin-bottom: 350px;
    }
 /*----- Footer -----*/
-    .footer-area-1,
-    .footer-area-2,
-    .footer-area-3,
-    .footer-area-4 {
-    	text-align: left;
-    	padding-bottom: 0;
+	.footer-widget-area {
+		height: 750px;
 	}
-	.footer-area-1 ul li {
+	.footer-area-1 , 
+	.footer-area-2 , 
+	.footer-area-3 , 
+	.footer-area-4 {
 		text-align: left;
+		padding: 0 10px;
 	}
-	.footer-area-3 ul li {
-		text-align: left;
-		padding-left: 10px;
+	.footer-area-1 ul {
+		width: 100%;
+	}
+	.widget-title {
+		text-align: center;
+	}
+	.footer-nav {
+		display: none;
+	}
+	.bottom-text{
+		width: 100%;
+		padding-bottom: 0px;
+		
 	}
 	.footer-logo {
 		display: block;
 		margin-left: auto;
 		margin-right: auto;
 		width: 50%;
-	}
-	.footer-nav {
-		display: none;
-	}
-	.site-info {
-		padding-top: 20px;
 	}
 }
 

@@ -12,10 +12,10 @@
 ?>
 	</div><!-- #content -->
 
+<!-- Starting Point of Custom Footer Widget Area -->
+	
 	<footer id="colophon" class="site-footer">
 		<div class="site-info">
-<!-- Starting Point of Custom Footer Widget Area -->
-
 			<div class="footer-widget-area">
 				<div class="container">
 					<div class="row" >
@@ -50,6 +50,8 @@
 					</div><!-- .row -->
 				</div><!-- .container-->
 			</div><!-- .footer-widget-area -->
+		</div><!-- .site-info -->
+	</footer><!-- #colophon -->
 
 <!-- Ending Point of Custom Footer Widget Area -->
 
@@ -67,7 +69,7 @@
 									) );
 								?>
 							</nav><!-- #site-navigation -->
-							<div class="site-info">
+							<div class="bottom-text">
 								<?php
 								echo get_theme_mod('bottom_footer_setting');
 								?>
@@ -83,8 +85,7 @@
 			</div><!-- .container -->
 
 <!-- Ending Point of Custom Bottom Footer Area -->
-		</div><!-- .site-info -->
-	</footer><!-- #colophon -->
+	
 </div><!-- #page -->
 
 <?php wp_footer(); ?>
