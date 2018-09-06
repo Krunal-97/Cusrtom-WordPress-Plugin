@@ -325,7 +325,7 @@ ul.rpwe-ul,
     margin-left: 13px;
     width: 210px;
     line-height: 1.25;
-    padding-bottom: 12px;
+    padding-bottom: 6px;
 }
 .rpwe-block ul li:hover {
     list-style-image: url(../images/footer-bullethover.jpg);
