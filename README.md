@@ -34,15 +34,15 @@
   
 ## Screenshots of my custom theme and theme options :
 #### Screenshot of my created theme :
-![ss-1](https://user-images.githubusercontent.com/42610373/44923925-51c67f00-ad67-11e8-9649-81b0b1199c34.JPG)
+![ss1](https://user-images.githubusercontent.com/42610373/45162801-7493e000-b20c-11e8-9f04-2fa3ad38e0a4.JPG)
 #### Custom theme options :
-![ss-2](https://user-images.githubusercontent.com/42610373/44924012-9e11bf00-ad67-11e8-8720-a4e207d549ef.JPG)
+![ss2](https://user-images.githubusercontent.com/42610373/45162813-7a89c100-b20c-11e8-9ece-f264afbdd2c4.JPG)
 #### Custom menu options :
-![ss-3](https://user-images.githubusercontent.com/42610373/44924104-f648c100-ad67-11e8-941d-477acd2478f0.JPG)
+![ss3](https://user-images.githubusercontent.com/42610373/45162823-82e1fc00-b20c-11e8-8c23-44d9103c96ba.JPG)
 #### Custom footer widgets area options :
-![ss-4](https://user-images.githubusercontent.com/42610373/44924116-fd6fcf00-ad67-11e8-8407-32057e9db13a.JPG)
+![ss4](https://user-images.githubusercontent.com/42610373/45162838-88d7dd00-b20c-11e8-8586-1ffd8ff4f377.JPG)
 #### Custom post based slider options :
-![ss-5](https://user-images.githubusercontent.com/42610373/44924120-02348300-ad68-11e8-9a71-eaf51e037cb5.JPG)
+![ss5](https://user-images.githubusercontent.com/42610373/45162864-92614500-b20c-11e8-9311-add8a8d43a08.JPG)
 #### Child pages of Home page and Sub pages of Child pages :
-![capture7](https://user-images.githubusercontent.com/42610373/44520477-91e58c00-a6ed-11e8-926d-d4b71e285a7f.JPG)
+![ss6](https://user-images.githubusercontent.com/42610373/45162871-97be8f80-b20c-11e8-959a-3224226ae58b.JPG)
 
