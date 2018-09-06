@@ -35,7 +35,8 @@ h3{
 --------------------------------------------------------------*/
 .site-header {
 	background-image: url(../images/header-bg.jpg);
-	padding-top: 22px;
+	padding-top: 15px;
+	min-height: 114px;
 	background-repeat: no-repeat;
 	background-position: center;
 }
@@ -44,7 +45,7 @@ h3{
 	box-shadow: 0px 3px lightgray;
 }
 .main-navigation {
-	padding-top: 22px;
+	padding-top: 25px;
 	padding-left: 28px;
 }
 .main-navigation a {
@@ -94,7 +95,9 @@ h3{
 	opacity: 0.7;
 }
 .cover {
-	padding: 30px;
+	padding-top: 30px;
+	padding-left: 36px;
+	padding-right: 23px;
 	height: 282px;
 	text-align: left;
 	margin-right: 40px;
@@ -130,21 +133,27 @@ h3{
 	z-index: 33;
 }
 .sy-controls li.sy-prev {
-	background-image:url(../images/slider-top-pagination-hov.png);
+	background-image:url(../images/slider-top-pagination.png);
 	background-repeat:no-repeat;
 	left:96%;
 	top:6%;
 	width:15px;
 	height:15px;
 }
+.sy-controls li.sy-prev:hover {
+	background-image:url(../images/slider-top-pagination-hov.png)
+}
 .sy-controls li.sy-next {
-	background-image:url(../images/slider-bottom-pagination-hov.png);
+	background-image:url(../images/slider-bottom-pagination.png);
 	background-repeat:no-repeat;
 	left:96%;
 	width:15px;
 	height:15px;
 	top:89%;
 	height:16px;
+}
+.sy-controls li.sy-next:hover {
+	background-image:url(../images/slider-bottom-pagination-hov.png);
 }
 .sy-controls li a {
 	position: relative;
@@ -222,13 +231,13 @@ h3{
     font-size: 17px;
     color: #993408;
     display: block;
-    padding: 7px 0 7px 25px;
+    padding: 7px 0 7px 20px;
     width: 100%;
     border: none;
     outline: none;
     text-align: left;
     cursor: pointer;
-	margin-top: 12px;
+	margin-top: 18px;
 	border-radius: 0;
 	text-transform: uppercase;
 }
@@ -292,45 +301,70 @@ h2.widget-title {
 	font-size: 15px;
 	color: #888;
 	border-bottom: 1px dashed #888;
+
 }
 h2.widget-title {
 	padding-top: 13px;
-	padding-bottom: 2px;
+	padding-bottom: 4px;
 }
-ul.rpwe-ul {
-	margin: 0;
+h2.widget-title:last-child {
+	padding-right: 0;
+	margin-right: 0;
 }
-#rpwe_widget-2 {
-	margin: 0;
-}
-.widget , .rpwe_widget,
+ul.rpwe-ul,
+#rpwe_widget-2,
+.widget,
+.rpwe_widget,
 .recent-posts-extended {
 	margin: 0;
+	padding: 0;
+}
+.rpwe-block ul li {
+	font-family: Tahoma;
+    list-style-image: url('../images/footer-bullet.jpg');
+    margin-left: 13px;
+    width: 210px;
+    line-height: 1.25;
+    padding-bottom: 12px;
+}
+.rpwe-block ul li:hover {
+    list-style-image: url(../images/footer-bullethover.jpg);
 }
 .footer-area-1 , 
 .footer-area-2 , 
 .footer-area-3 , 
 .footer-area-4 {
 	margin: 0px auto;
-	padding-right: 20px;
+	padding-right: 10px;
 }
-.footer-area-1 ul {
-	width: 212px;
-}
-.footer-area-1 ul li, 
+
 .footer-area-3 ul li, 
 .footer-area-4 ul li {
 	list-style: none;
 }
-.footer-area-1 ul li:first-child, 
-.footer-area-3 ul li:first-child, 
+.footer-area-1 ul li:first-child,  
 .footer-area-4 ul li:first-child {
 	padding-top: 10px;
 }
-.footer-area-2 img {
-	padding-top: 10px;
+.footer-area-3 ul li:first-child{
+	padding-top: 15px
 }
-.footer-area-1 a, 
+.footer-area-3 p {
+	padding-bottom: 10px;
+}
+.footer-area-2 img{
+	padding-top: 11px;
+}
+.footer-area-2 img {
+	
+	margin-left: 5px;
+} 
+.rpwe-block ul li a {
+	text-decoration: none;
+	font-size: 13px;
+	color: #888;
+	font-weight: normal;
+}
 .footer-area-3 a,
 .footer-area-4 a {
 	font-family: Tahoma;
@@ -342,14 +376,11 @@ ul.rpwe-ul {
 .footer-area-4 a:hover {
 	color: #993408;
 }
-.footer-area-1 ul li {
-	padding-bottom: 0px;
-}
-.footer-area-3 li {
-	padding-bottom: 10px;
-}
 .footer-area-3 i {
+	vertical-align: middle;
 	font-size: 24px;
+	margin-left: 2px;
+	padding-right: 5px;
 }
 .fb:hover {
 	color: #3b5998;
@@ -362,6 +393,9 @@ ul.rpwe-ul {
 }
 .rss:hover {
 	color: #ee802f;
+}
+.footer-area-4 li {
+	line-height: 1.25;
 }
 .footer-area {
 	padding-top: 3px;
@@ -510,7 +544,7 @@ ul.rpwe-ul {
     	margin: 0;
     	padding-top: 20px;
     }
-    .menu-toggle {
+     .menu-toggle {
     	margin: 0px;
     	margin-bottom: 0;
     	font-size: 15px;
@@ -523,7 +557,7 @@ ul.rpwe-ul {
 		padding-right: 20px;
 	}
 	.slider-inner a img {
-		height: 170px;
+		height: 150px;
 	}
 	.border {
 		border: 5px solid white;
@@ -584,7 +618,7 @@ ul.rpwe-ul {
 		padding-right: 20px;
 	}
     .child-pages {
-    	height: 150px;
+    	height: 170px;
     	width: 100%;
     }
     .child-pages button {
@@ -603,12 +637,21 @@ ul.rpwe-ul {
 	}
 	.tabcontent {
 		border-left: 1px solid #ccc;
-   		height: 630px;
+   		height: 650px;
    		padding: 10px;
    	}
+	.featured-post-title {
+		font-size: 12px;
+	}
+	.post-excerpt {
+		font-size: 12px;
+	}
 /*----- Footer -----*/
 	.footer-widget-area {
 		height: 750px;
+	}
+	.rpwe-block ul li {
+	    width: 100%;
 	}
 	.footer-area-1 , 
 	.footer-area-2 , 

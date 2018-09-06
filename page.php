@@ -38,11 +38,33 @@ get_header();
 									$thumb_url = wp_get_attachment_image_src( $thumb_id, '' ,true);
 									?>
 									  <li>
-									    <a class="border" href="#"><img src="<?php echo $thumb_url[0] ?>"></a>
+									    <a class="border" href="#">
+									    	<?php
+									    		if( has_post_thumbnail() ) { 
+									    			echo '<img src="';
+									    	  		echo $thumb_url[0]; 
+									    	  		echo '">';
+											 	}
+												else {
+												   	 echo '<img src="';
+													 echo catch_that_image();
+													 echo '" alt="" />';
+													 echo '</a>';
+												}
+											?>	
+									    </a>
 									     <div class="slider-caption">
 											<div class="cover">
 												<h3 class="post-title"><?php echo get_the_title() ?></h3>
-												<p class="custom-post-excerpt"><?php echo the_excerpt() ?></p>
+												<p class="custom-post-excerpt">
+												<?php 
+													if(! has_excerpt()) {
+														echo the_content();
+													}
+													else {
+														echo the_excerpt();
+													} 
+												?></p>
 											</div><!--.cover-->
 										 </div><!--.carousel-caption-->
 									  </li>

@@ -77,7 +77,9 @@
 						</div><!-- .col-8 -->
 						<div class="col-4">
 							<div class="footer-logo">
-								<a href="#"><img src="<?php echo wp_get_attachment_url(get_theme_mod('Footer_logo_setting'));?>"/></a>
+								<a href="#">
+									<img src="<?php echo wp_get_attachment_url(get_theme_mod('Footer_logo_setting'));?>"/>
+								</a>
 							</div><!-- .footer-logo -->
 						</div><!-- .col-4 -->
 					</div><!-- .row -->

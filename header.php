@@ -16,7 +16,6 @@
 	<meta charset="<?php bloginfo( 'charset' ); ?>">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="profile" href="https://gmpg.org/xfn/11">
-
 	<?php wp_head(); ?>
 	<script type="text/javascript">
 		jQuery(document).ready(function(){
@@ -38,13 +37,20 @@
 						<div class="col-5">
 							<div class="site-branding">
 								<?php	
-									the_custom_logo();
+									$custom_logo_id = get_theme_mod( 'custom_logo' );
+									$logo = wp_get_attachment_image_src( $custom_logo_id , 'full' );
+									if ( has_custom_logo() ) {
+									        echo '<img src="'. esc_url( $logo[0] ) .'">';
+									}
+									else {
+								        echo '<img class="defaultlogo" src=" '. get_template_directory_uri() .'/lib/images/default-logo.png" height="100" width="200">';
+									}
 								?>
 							</div><!-- .site-branding -->
 						</div><!-- .col-5 -->
 						<div class="col-7">
 							<nav id="site-navigation" class="main-navigation">
-								<button class="menu-toggle" aria-controls="primary-menu" aria-expanded="false"><?php esc_html_e( 'Menu', 'rtcamp-assignment' ); ?></button>
+								<button class="menu-toggle" aria-controls="primary-menu" aria-expanded="true"><?php esc_html_e( 'Menu', 'rtcamp-assignment' ); ?></button>
 								<?php	
 									wp_nav_menu( array(
 									'theme_location' => 'menu-1',

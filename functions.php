@@ -82,12 +82,18 @@ if ( ! function_exists( 'rtcamp_assignment_setup' ) ) :
 		 *
 		 * @link https://codex.wordpress.org/Theme_Logo
 		 */
-		add_theme_support( 'custom-logo', array(
-			'height'      => 250,
-			'width'       => 250,
-			'flex-width'  => true,
-			'flex-height' => true,
-		) );
+		add_theme_support( 'custom-logo' );
+		function themename_custom_logo_setup() {
+		    $defaults = array(
+		        'height'      => 100,
+		        'width'       => 400,
+		        'flex-height' => true,
+		        'flex-width'  => true,
+		        'header-text' => array( 'site-title', 'site-description' ),
+		    );
+		    add_theme_support( 'custom-logo', $defaults );
+		}
+		add_action( 'after_setup_theme', 'themename_custom_logo_setup' );
 	}
 endif;
 add_action( 'after_setup_theme', 'rtcamp_assignment_setup' );
@@ -231,6 +237,30 @@ if ( defined( 'JETPACK__VERSION' ) ) {
 	require get_template_directory() . '/inc/jetpack.php';
 }
 /**
+ * Enable Page Excerpt
+ */
+add_post_type_support('page','excerpt');
+/**
+ * Enable Custom Post Slider Excerpt
+ */
+add_post_type_support('slider','excerpt');
+/**
+ * Enable First Image of Custom Post Slider Content when the featured image is not available
+ */
+function catch_that_image() {
+	global $post, $posts;
+	$first_img = '';
+	ob_start();
+	ob_end_clean();
+	$output = preg_match_all('/<img.+src=[\'"]([^\'"]+)[\'"].*>/i', $post->post_content, $matches);
+	$first_img = $matches [1] [0];
+
+	if(empty($first_img)){ //Defines a default image
+	$first_img = "/images/default.jpg";
+	}
+	return $first_img;
+}
+/**
  * Custom Footer Edit
  */
 function Custom_bottom_footer($wp_customize){
@@ -257,7 +287,9 @@ function Footer_logo($wp_customize){
 	'title' => 'Footer Logo'
 	));
 	
-	$wp_customize->add_setting('Footer_logo_setting');
+	$wp_customize->add_setting('Footer_logo_setting' ,array(
+	'default' => '<img class="defaultlogo" src=" '. get_template_directory_uri() .'/lib/images/default-logo.png" height="100" width="200">'
+	));
 	
 	$wp_customize->add_control(new WP_Customize_Cropped_Image_Control($wp_customize, 'Footer_logo', array(
 	'label' => 'Change Footer Logo',
@@ -268,9 +300,4 @@ function Footer_logo($wp_customize){
 	)));
 }
 add_action('customize_register','Footer_logo');
-/**
- * Enable Page Excerpt
- */
-add_post_type_support('page','excerpt');
-
 
