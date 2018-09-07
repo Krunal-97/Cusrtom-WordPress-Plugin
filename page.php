@@ -85,9 +85,9 @@ get_header();
 				<div class="row">
 					<div class="col-child-name">
 						<div class="child-pages">
-						  <button class="tablinks" onmouseover="openChildPage(event, 'child-page-1')" onClick="openChildPage(event, 'child-page-1')" id="defaultOpen">FINDING</button>
-						  <button class="tablinks" onmouseover="openChildPage(event, 'child-page-2')">PROMOTIONAL ACTIVITIES</button>	
-						  <button class="tablinks" onmouseover="openChildPage(event, 'child-page-3')">ENVIRONMENT</button>
+						  <a class="child-button tablinks" onmouseover="openChildPage(event, 'child-page-1')" onClick="openChildPage(event, 'child-page-1')" id="defaultOpen">FINDING</a>
+						  <a class="child-button tablinks" onmouseover="openChildPage(event, 'child-page-2')">PROMOTIONAL ACTIVITIES</a>	
+						  <a class="child-button tablinks" onmouseover="openChildPage(event, 'child-page-3')">ENVIRONMENT</a>
 						</div><!--.tab-->
 					</div><!--.col-3-->
 

@@ -226,25 +226,35 @@ h3{
 	width: 696px;
 	padding-left: 20px;
 }
-.child-pages button  {
-	font-family: Georgia;
-    font-size: 17px;
-    color: #993408;
-    display: block;
-    padding: 7px 0 7px 20px;
-    width: 100%;
-    border: none;
-    outline: none;
-    text-align: left;
-    cursor: pointer;
-	margin-top: 18px;
-	border-radius: 0;
-	text-transform: uppercase;
+.child-button{
+  font-family: Georgia;
+  font-size: 17px;
+  cursor: pointer;
+  display: inline-block;  
+  height: 34px;
+  margin-top: 15px;
+  position: relative;
+  line-height: 2em;
+  padding-left: 1em;
+  color: #993408;
+  width: 246px;
 }
-div.child-pages button:hover,div.child-pages button.active  {
-    background-color: #993408;
-	color: #fff;
-	clip-path: polygon(0% 0%, 95% 0%, 100% 50%, 95% 100%, 0% 100%);
+.child-button:after {
+  content: "";
+  position: absolute;
+  border-bottom: 17px solid transparent;
+  border-top: 17px solid transparent;
+  height: 0px;
+  width: 0px;
+  margin-right: -20px;
+  right: 0; 
+}
+.child-button:hover {
+  background: #993408;
+  color: #fff;
+}
+.child-button:hover:after {
+    border-left: 20px solid #993408;
 }
 .child-pages-content {
 	padding-top: 20px;
@@ -621,16 +631,17 @@ ul.rpwe-ul,
     	height: 170px;
     	width: 100%;
     }
-    .child-pages button {
-    	text-align: center;
+    .child-button{
+	    text-align: center;
     	padding-left: 0;
     	margin-left: 0;
-    }
-    div.child-pages button:hover,div.child-pages button.active  {
-	    background-color: #993408;
-		color:#fff;
-		clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 100% 100%, 0% 100%);
+    	width: 100%;
 	}
+	.child-button:after {
+	  border-bottom: 0;
+	  border-top: 0;
+	}
+
 	.featured-post-title , .post-excerpt{
 		text-align: center;
 		width: 100%;
