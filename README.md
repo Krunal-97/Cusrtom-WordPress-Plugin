@@ -1,4 +1,4 @@
-# rtCamp WordPress Engineer Assignment
+# WordPress Custom Plug-in.
   This repo contains Challenge-1: WordPress Theme Challenge.
 * Simple PSD to WordPress Theme Assignment
 ## List of some features provided by this theme :
